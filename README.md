@@ -1,10 +1,12 @@
 IR_alignment_gcode is a python application i (TLD) created for automated IR UART alignment testing.
+
 I ran it on python 3.10.10  with the following packages:
-matplotlib      3.7.1
-numpy           1.24.2
-opencv-python   4.7.0.72
-openpyxl        3.1.2
-pyserial        3.5
+- matplotlib      3.7.1
+- numpy           1.24.2
+- opencv-python   4.7.0.72
+- openpyxl        3.1.2
+- pyserial        3.5
+
 basic usage instructions:
 - attach IR QRD PCB to 3d printer carriage (using 3d-printed bracket)
 - connect 3D printer serial port to PC (almost all printers still come with a USB serial port, even though SD-cards are the way most people run Gcode)
